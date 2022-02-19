@@ -1,0 +1,73 @@
+/* Your card CSS file */
+.card-category {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(https://source.unsplash.com/random/1000x500);
+  background-size: cover;
+  color: white;
+  width:auto;
+  height:150px;
+  border-radius: 7px;
+  text-shadow: 1px 1px 5px rgb(0 0 0 / 100%);
+  box-shadow: 0 0 15px rgb(0 0 0 / 40%);
+}
+
+.card-product {
+  display: flex;
+  width: auto;
+  height: 150px;
+  border-radius: 7px;
+  text-shadow: 1px 1px 1px rgb(192, 192, 192);
+  box-shadow: 0 0 15px rgb(0 0 0 / 50%);
+}
+
+.card-product img{
+  width: 150px;
+}
+
+.product-description {
+  padding: 20px;
+  margin: 0px;
+}
+
+.product-description h2 {
+  margin-bottom: 10px;
+}
+
+.product-description p {
+  font-weight: lighter;
+  margin-top: 0px;
+}
+
+.card-trip {
+  position: relative;
+  height: auto;
+  border-radius: 7px;
+  text-shadow: 1px 1px 1px rgb(192, 192, 192);
+  box-shadow: 0 0 15px rgb(0 0 0 / 50%);
+  display: flex;
+  flex-direction: column;
+}
+
+.card-trip-description {
+  padding: 45px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.trip-main-details h2{
+  margin-bottom: 10px;
+}
+
+.trip-main-details p{
+  margin-top: 0px;
+}
+
+.avatar {
+  position: absolute;
+  bottom: 150px;
+  right: 40px;
+  width: 70px;
+  border-radius: 50%;
+}
