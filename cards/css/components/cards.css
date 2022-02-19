@@ -7,8 +7,8 @@
   background-size: cover;
   color: white;
   width:auto;
-  height:150px;
   border-radius: 7px;
+  height:150px;
   text-shadow: 1px 1px 5px rgb(0 0 0 / 100%);
   box-shadow: 0 0 15px rgb(0 0 0 / 40%);
 }
